@@ -1,9 +1,9 @@
 body {
-    background-color: peachpuff;
+    background-color: rgb(159, 217, 240);
 }
 header {
     font-size: xx-large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: saddlebrown;
+    color: rgb(19, 31, 139);
     font-weight: bolder;
 }
