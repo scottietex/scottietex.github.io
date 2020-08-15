@@ -1,9 +1,45 @@
 body {
-    background-color: rgb(159, 217, 240);
+    height: 100%;
+    margin: 0;
+    font-family: cursive;
+    background-color: rgb(217, 168, 113);
 }
 header {
-    font-size: xx-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(19, 31, 139);
-    font-weight: bolder;
+    background-image: url("images/logo.jpg");
+    background-position: top;
+    height: 100%;
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(50, 30, 2);
+}
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: rgb(171, 94, 7);
+    background-color:rgb(50, 30, 2);
+    text-align: center;
+    cursor: pointer;
+}
+button:hover {
+    background-color: rgb(50, 30, 2);
+    color: white;
+}
+.navbar {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: rgb(171, 94, 7);
+    color: rgb(50, 30, 2)
+    font-weight: bold;
+}
+.navbar:hover {
+    background-color: rgb(50, 30, 2);
+    color: white;
+}
+p {
+    font-size: 2rem;
+    font-weight: bold;
 }
