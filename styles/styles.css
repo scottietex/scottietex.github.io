@@ -13,6 +13,7 @@ body {
 section, footer {
     margin: 0;
     padding: 20px;
+    font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
 }
 @media screen and (min-width:580px) {
     body {
@@ -147,7 +148,7 @@ section p {
     width: 20rem;
     margin-left: auto;
     margin-right: auto;
-    border: 0.5rem solid rgb(50, 30, 2)
+    border: 0.5rem solid rgb(50, 30, 2);
 }
 article {
     font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
@@ -161,4 +162,26 @@ footer a {
     font-weight: bold;
     color: rgb(50, 30, 2);
     text-decoration: none;
+}
+figure {
+    display: inline-block;
+    border: 0.5rem solid rgb(50, 30, 2);
+    margin: 3rem;
+}
+figure img {
+    vertical-align: top;
+    justify-content: space-around;
+    justify-content: space-between;
+    height: 15rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure figcaption {
+    border-top: 0.5rem solid rgb(50, 30, 2);
+    text-align: center;
+    background-color: white;
+    color: rgb(50, 30, 2);
+    font-weight: bolder;
+    font-size: large;
 }
