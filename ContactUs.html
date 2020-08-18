@@ -1,10 +1,74 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Page title here</title>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        
+        <!-- style for the website banner -->
+        <style>
+            .banner-image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/dogbanner1.jpg");
+                height: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: sticky;
+            }
+        </style>
     </head>
-
-    <body>
-
-    </body>
+    <a name="top"></a>
+        <body>
+            <!--header for the website-->
+            <header>
+                <div class="banner-image">
+                    <h1>Mucky Pup</h1>
+                        <p>Grooming for the bestest boys and girls!</p>
+                            <button><a href="Appointments.html">Book Online</a></button>
+                </div>
+                <!--navigation bar, set to identify which page the user is on-->
+                <nav>
+                    <ul>
+                        <li><a href="Main Page.html" class="item">Home</a></li>
+                        <li><a href="Services Page.html" class="item">Services</a></li>
+                        <li><a href="AboutUs.html" class="item">About Us</a></li>
+                        <li><a href="FAQs.html" class="item">FAQs</a></li>
+                        <li><a href="ContactUs.html" class="active">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <br>
+                <section>
+                    <!--business address and phone number-->
+                    <article class="address">     
+                        <h2>Our address</h2>
+                        <p>12345 Fictional Avenue</p>
+                        <p>Faketown</p>
+                        <p>Random State</p>
+                        <p>67890</p>
+                        <p>USA</p>
+                        <br>
+                        <h2>Our phone number</h2>
+                        <p>+1 (123) 456-7890</p>
+                    </article>
+                </section>
+                <br>
+                <section>
+                    <article>
+                    <!--email subscription form-->
+                        Sign up to our mailing list to receive news on our latest offers!
+                        <br>
+                        <br>
+                        We will never sell your information to anyone!
+                        <br>
+                        <br>
+                        <input form="email" type="email">
+                            <button>Submit</button>
+                    </article>
+                </section>
+                <br>
+                <!--link to top of page-->
+                <footer>
+                    <a href="#top">Back to Top</a>
+                </footer>
+        </body>
 </html>
