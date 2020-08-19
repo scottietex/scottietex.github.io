@@ -1,13 +1,13 @@
 Belinda Davidson
 
 Week 4 Project - Basic Business Website
-Website for a small fictional business - dog grooming salon
+Website for a small fictional business - dog grooming salon - Mucky Pup.
 
-details on how to use it / what functionality is offered
+Basic business website with linked pages and online booking feature through appointments page.  Seperate pages for contact details, services offered, FAQs and also an About Us section with details about the business.
 
-technologies used - html, css etc
+Technologies used - html, css only.
 
-ideas for future improvement
+Would like to experiment with different fonts and would have liked to add some kind of hover effect to the "services" images, to show the sizes, rather than use figcaption.  Feel like the site itself could be more interactive with bookings.  Wanted to add a functioning calendar to the Appointments page but was not sure how.
 
 USER STORIES:
 
