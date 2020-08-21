@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial scale=1">
+        <link href="styles/styles.css" rel="stylesheet" type="text/css">
+        
+        <!-- style for the website banner -->
+        <style>
+            .banner-image {
+                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/dogbanner1.jpg");
+                height: 50%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: sticky;
+            }
+        </style>
+    </head>
+    <a name="top"></a>
+        <body>
+            <!--header for the website-->
+            <header>
+                <div class="banner-image">
+                    <h1>Mucky Pup</h1>
+                        <p>Grooming for the bestest boys and girls!</p>
+                            <button><a href="Appointments.html">Book Online</a></button>
+                </div>
+                <!--navigation bar, set to identify which page the user is on-->
+                <nav>
+                    <ul>
+                        <li><a href="index.html" class="item">Home</a></li>
+                        <li><a href="Services Page.html" class="item">Services</a></li>
+                        <li><a href="AboutUs.html" class="item">About Us</a></li>
+                        <li><a href="FAQs.html" class="item">FAQs</a></li>
+                        <li><a href="ContactUs.html" class="item">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <br>
+                <section>
+                    <!--Flexbox for drop down lists, calendar and appointment times-->
+                    <div class="container">
+                        <!--Services forms to select dog size, hair length and service-->
+                        <div class="drop-downs">
+                            <div class="drop-down1">
+                                <select>
+                                    <optgroup label="dog-size">
+                                        <option value="select">Select your Dog Size</option>
+                                        <option value="large">Large - 55lbs and over</option>
+                                        <option value="medium">Medium - 25-55lbs</option>
+                                        <option value="small">Small - under 25lbs</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <!--Second drop down list for selecting coat length-->
+                            <div class="drop-down2">
+                                <select>
+                                    <optgroup label="coat-length">
+                                        <option value="select">Select Coat Length</option>
+                                        <option value="long">Long / Double Coated</option>
+                                        <option value="short">Short</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                            <!--Third drop down list for selecting service type-->
+                            <div class="drop-down3">
+                                <select>
+                                    <optgroup label="service">
+                                        <option value="select">Select Service</option>
+                                        <option value="wash">Wash and Blow Dry</option>
+                                        <option value="trim">Wash, Blow Dry and Trim</option>
+                                        <option value="shave">Wash, Blow Dry and Shave</option>
+                                        <option value="claws">Claw Trim</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <!--drop down list to allow selection of month-->
+                        <div class="calendar">
+                            <div class="month">
+                                <select>
+                                    <optgroup label="month">
+                                        <option value="select">Select Month</option>
+                                        <option value="jan">Jan</option>
+                                        <option value="feb">Feb</option>
+                                        <option value="mar">Mar</option>
+                                        <option value="apr">April</option>
+                                        <option value="may">May</option>
+                                        <option value="jun">Jun</option>
+                                        <option value="jul">Jul</option>
+                                        <option value="aug">Aug</option>
+                                        <option value="sep">Sep</option>
+                                        <option value="oct">Oct</option>
+                                        <option value="nov">Nov</option>
+                                        <option value="dec">Dec</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                                <!--drop down list to select day-->
+                             <div class="day">   
+                                <select>
+                                    <optgroup label="day">
+                                        <option value="select">Select Day</option>
+                                        <option value="1">1</option>
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30">30</option>
+                                        <option value="31">31</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+                        </div>
+                        <!--drop down list to select time of appointment-->
+                        <div class="times">
+                            <select>
+                                <optgroup label="appointment-times">
+                                    <option value="select">Select Time</option>
+                                    <option value="9am">9:00am</option>
+                                    <option value="10am">10:00am</option>
+                                    <option value="11am">11:00am</option>
+                                    <option value="12pm">12:00pm</option>
+                                    <option value="1pm">1:00pm</option>
+                                    <option value="2pm">2:00pm</option>
+                                    <option value="3pm">3:00pm</option>
+                                    <option value="4pm">4:00pm</option>
+                                    <option value="5pm">5:00pm</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+                </section>
+                <br>
+                <section>
+                    <article class="details">
+                    <!--form for capturing details-->
+                        <h2>Please complete with your details!</h2>
+                        <h3>First Name</h3>
+                        <input form="firstname" type="text" placeholder="First Name">
+                        <h3>Last Name</h3>
+                        <input form="firstname" type="text" placeholder="Last Name">
+                        <h3>Phone Number</h3>
+                        <input form="phone" type="number" placeholder="Phone Number">
+                        <h3>Email Address</h3>
+                        <input form="email" type="email" placeholder="Email Address">
+                            <button>Submit</button>
+                    </article>
+                </section>
+                <br>
+                <!--link to top of page-->
+                <footer>
+                    <a href="#top">Back to Top</a>
+                </footer>
+        </body>
