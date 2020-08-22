@@ -1,6 +1,7 @@
 Belinda Davidson
 
-Week 4 Project - Basic Business Website
+Week 4 Project - Basic Business Website - https://scottietex.github.io/Mucky%20Pup%20Grooming%20Salon/index.html
+
 Website for a small fictional business - dog grooming salon - Mucky Pup.
 
 Basic business website with linked pages and online booking feature through appointments page.  Seperate pages for contact details, services offered, FAQs and also an About Us section with details about the business.
