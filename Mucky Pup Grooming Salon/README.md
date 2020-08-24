@@ -12,8 +12,8 @@ Would like to experiment with different fonts and would have liked to add some k
 
 USER STORIES:
 
-USER 1: As a pet owner, I want to be able to easily see what is offered so I can select the right service for my pet
+USER 1: As a pet owner, I want to easily see what is offered so I can select the right service for my pet
 
-USER 2: As a pet owner, I want to be able to easily find information on the business such as location and opening hours, so I know if I'm able to visit.
+USER 2: As a pet owner, I want to easily find information on the business such as location and opening hours, so I know if I can visit.
 
-USER 3: As a pet owner, I want to be able to make an appointment online, so I can quickly align it with my schedule.
+USER 3: As a pet owner, I want to make an appointment online, so I can quickly align it with my schedule.
