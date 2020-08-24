@@ -135,17 +135,18 @@ section.intro {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
 }
 .large-images img {
     justify-content: space-around;
     justify-content: space-between;
-    height:auto;
+    height: auto;
     width: 30rem;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
-    box-shadow: 4px, 6px, 5px rgb(50, 30, 2, 0.6);
+    border: 0.2rem solid rgb(50, 30, 2);
+    box-shadow: 4px 6px 5px rgb(50, 30, 2, 0.6);
 }
 .small-images {
     display: flex;
@@ -153,7 +154,8 @@ section.intro {
     height: 20rem;
     width: 100%;
     overflow: hidden;
-    margin: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 .small-images img {
     justify-content: space-around;
@@ -163,6 +165,9 @@ section.intro {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;
+    margin top: 1rem;
+    border: 0.2rem solid rgb(50, 30, 2);
+    box-shadow: 4px 6px 5px rgb(50, 30, 2, 0.6);
 }
 article {
     font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
