@@ -1,6 +1,7 @@
 Belinda Davidson
 
-Week 4 Project - Basic Business Website
+Week 4 Project - Basic Business Website - https://scottietex.github.io/Mucky%20Pup%20Grooming%20Salon/index.html
+
 Website for a small fictional business - dog grooming salon - Mucky Pup.
 
 Basic business website with linked pages and online booking feature through appointments page.  Seperate pages for contact details, services offered, FAQs and also an About Us section with details about the business.
@@ -11,8 +12,8 @@ Would like to experiment with different fonts and would have liked to add some k
 
 USER STORIES:
 
-USER 1: I want to be able to easily see what is offered so I can select the right service for my pet
+USER 1: As a pet owner, I want to be able to easily see what is offered so I can select the right service for my pet
 
-USER 2: I want to be able to easily find information on the business such as location and opening hours, so I know if I'm able to visit.
+USER 2: As a pet owner, I want to be able to easily find information on the business such as location and opening hours, so I know if I'm able to visit.
 
-USER 3: I want to be able to make an appointment online and see what dates and times are available, so I can quickly align it with my schedule.
+USER 3: As a pet owner, I want to be able to make an appointment online, so I can quickly align it with my schedule.
