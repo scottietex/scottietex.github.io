@@ -3,36 +3,26 @@
     <head>
         <meta name="viewport" content="width=device-width, initial scale=1">
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
-        
-        <!-- style for the website banner -->
-        <style>
-            .banner-image {
-                background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/dogbanner1.jpg");
-                height: 50%;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-                position: sticky;
-            }
-        </style>
+        <title>MuckyPupGroomingSalon</title>
     </head>
-    <a name="top"></a>
         <body>
+            <!--anchor for top of page-->
+            <a id="top"></a>
             <!--header for the website-->
             <header>
                 <div class="banner-image">
                     <h1>Mucky Pup</h1>
                         <p>Grooming for the bestest boys and girls!</p>
-                            <button><a href="Appointments.html">Book Online</a></button>
                 </div>
                 <!--navigation bar, set to identify which page the user is on-->
                 <nav>
                     <ul>
                         <li><a href="index.html" class="item">Home</a></li>
-                        <li><a href="Services Page.html" class="item">Services</a></li>
-                        <li><a href="AboutUs.html" class="item">About Us</a></li>
+                        <li><a href="ServicesPage.html" class="item">Services</a></li>
+                        <li><a href="AboutUs.html" class="active">About Us</a></li>
                         <li><a href="FAQs.html" class="item">FAQs</a></li>
-                        <li><a href="ContactUs.html" class="active">Contact Us</a></li>
+                        <li><a href="ContactUs.html" class="item">Contact Us</a></li>
+                        <li><a href="Appointments.html">Book Online</a></li>
                     </ul>
                 </nav>
             </header>
@@ -71,7 +61,7 @@
                             <h3>Sign up to our mailing list to receive news on our latest offers!</h3>
                             <h3>We will never sell your information to anyone!</h3>
                             <div class="sign-up">
-                            <input form="email" type="email" placeholder="Email Address">
+                                <input type="email" placeholder="Email Address">
                                 <button>Submit</button>
                             </div>
                         </article>
