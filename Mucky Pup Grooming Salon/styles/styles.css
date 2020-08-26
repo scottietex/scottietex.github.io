@@ -99,7 +99,7 @@ header {
 button {
     border: none;
     outline: 0;
-    display: inline;
+    display: inline-flex;
     position: relative;
     padding: 10px 25px;
     background-color:whitesmoke;
@@ -109,6 +109,8 @@ button {
     font-family:"Palatino Linotype","Book Antiqua", "Palatino", serif;
     font-size: large;
     font-weight: bold;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
 }
 
 button:hover {
@@ -297,4 +299,8 @@ form {
     margin: 5rem 0 0 5rem;
     color: rgb(50, 30, 2);
     font-size: medium;
+}
+#email {
+    width: 450px;
+
 }
