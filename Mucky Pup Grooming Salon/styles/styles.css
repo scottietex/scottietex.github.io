@@ -57,6 +57,9 @@ section, footer {
     margin: 0;
     padding: 20px;
     font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
+    color: rgb(50, 30, 2);
+    font-size: medium;
+    font-weight: bold;
 }
 
 footer a {
@@ -106,7 +109,6 @@ button {
     font-family:"Palatino Linotype","Book Antiqua", "Palatino", serif;
     font-size: large;
     font-weight: bold;
-    margin: 1rem;
 }
 
 button:hover {
@@ -171,7 +173,7 @@ h1 {
     padding-top: 2rem;
 }
 
-/* general styling for index page intro */
+/* general styling for sections */
 
 section.intro {
     font-size: 2rem;
@@ -184,13 +186,24 @@ section.intro {
 
 /* general article styling */
 
-h3, article {
+article {
+    font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
+    color: rgb(50, 30, 2);
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 2rem 0 0 4rem;
+    text-align: left;
+}
+article h3 {
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+article p {
     font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
     color: rgb(50, 30, 2);
     font-weight: bold;
     font-size: large;
-    margin: 2rem 0 0 4rem;
-
 }
 
 /* formatting of images in ServicesPage */
@@ -273,9 +286,15 @@ form input {
     padding: 10px;
     border-color: rgb(50, 30, 2);
     display: block;
-    margin: 1rem;
+    margin-top: 1rem;
 }
 
 form {
-    margin: 2rem 0 0 3rem;
+    margin: 2rem 0 0 4rem;
+}
+
+.sign-up {
+    margin: 5rem 0 0 5rem;
+    color: rgb(50, 30, 2);
+    font-size: medium;
 }
