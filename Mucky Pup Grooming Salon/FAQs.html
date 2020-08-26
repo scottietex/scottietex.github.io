@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <head>
-        <meta name="viewport" content="width=device-width, initial scale=1">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link href="styles/styles.css" rel="stylesheet" type="text/css">
         <title>MuckyPupGroomingSalon</title>
     </head>
@@ -42,17 +44,14 @@
                 </section>
                 <br>
                 <section>
-                    <article>
                         <!--email subscription form-->
                             <h3>Sign up to our mailing list to receive news on our latest offers!</h3>
                             <h3>We will never sell your information to anyone!</h3>
-                            <div class="sign-up">
-                                <input type="email" placeholder="Email Address">
-                                <button>Submit</button>
-                            </div>
-                        </article>
+                            <form action="https://formspree.io/mknqadbe" method="POST">
+                                <input type="email" id="email" name="email" placeholder="Email Address" required>
+                                    <button type="submit">Submit</button>
+                            </form>
                 </section>
-                <br>
                 <!--link to top of page-->
                 <footer>
                     <a href="#top">Back to Top</a>

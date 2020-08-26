@@ -3,6 +3,9 @@
     padding: 0;
     margin: 0;
 }
+
+/* hero image styling */
+
 .banner-image {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/dogbanner1.jpg");
     height: 50%;
@@ -10,7 +13,22 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: sticky;
+    font-size: 3rem;
 }
+
+.banner-image p {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.banner-image h1 {
+    font-size: 4rem;
+}
+
+/* main bosy stylng */
 
 body {
     background-color: rgb(217, 168, 113);
@@ -18,11 +36,38 @@ body {
     border: none;
     font-family: cursive;
 }
+
+/* bootstrap carousel styling for index page */
+
+#carouselExampleIndicators {
+    width: 70%;
+    height: 70%;
+    margin: auto;
+  }
+  .carousel-control-prev {
+    background-color: rgba(0,0,0,0.5);
+  }
+  .carousel-control-next {
+    background-color: rgba(0,0,0,0.5);
+  }
+
+/* general styling for sections and footer */
+
 section, footer {
     margin: 0;
     padding: 20px;
     font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
 }
+
+footer a {
+    font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
+    font-weight: bold;
+    color: rgb(50, 30, 2);
+    text-decoration: none;
+}
+
+/* media query for mobile and screen */
+
 @media screen and (min-width:580px) {
     body {
         flex-direction: column;
@@ -30,7 +75,10 @@ section, footer {
     nav {
         padding: 20px 10px;
     }
-}   
+}
+
+/* general header styling */
+
 header {
     background-position: center;
     height: 20%;
@@ -42,6 +90,9 @@ header {
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
+
+/* submit button styling */
+
 button {
     border: none;
     outline: 0;
@@ -55,18 +106,16 @@ button {
     font-family:"Palatino Linotype","Book Antiqua", "Palatino", serif;
     font-size: large;
     font-weight: bold;
+    margin: 1rem;
 }
-button a {
-text-decoration: none;
-color: rgb(50, 30, 2);
-}
+
 button:hover {
     background-color: rgb(50, 30, 2);
     color: white;
 }
-button a:hover {
-    color: white;
-}
+
+/* navigation bar styling */
+
 nav {
     position: relative;
     background-color: rgb(171, 94, 7);
@@ -79,6 +128,7 @@ nav {
     color: rgb(50, 30, 2);
     font-size: 1.5rem;
 }
+
 ul {
     list-style: none;
     width: 100%;
@@ -89,6 +139,7 @@ ul {
     background-color: rgb(171, 94, 7);
     color: rgb(50, 30, 2);
 }
+
 ul li {
     display: inline-block;
     align-content: center;
@@ -97,91 +148,53 @@ ul li {
     color: rgb(50, 30, 2);
     border: none;
 }
+
 ul li a {
     color: rgb(50, 30, 2);
     text-decoration: none;
     padding: 1rem;
 }
+
 ul li a:hover {
     background-color: rgb(50, 30, 2);
     color: white;
+    text-decoration: none;
 }
+
 a.active {
     background-color: rgb(50, 30, 2);
     color: white;
 }
+
 h1 {
     margin-top: 0;
     padding-top: 2rem;
 }
-.banner-image p {
-    margin-bottom: 0;
-    margin-top: 0;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    padding-bottom: 2rem;
-}
+
+/* general styling for index page intro */
+
 section.intro {
     font-size: 2rem;
     font-weight: bold;
     color: rgb(50, 30, 2);
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     text-align: center;
 }
-.large-images {
-    display: flex;
-    text-align: center;
-    height: 20rem;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
-}
-.large-images img {
-    justify-content: space-around;
-    justify-content: space-between;
-    height: auto;
-    width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
-    border: 0.2rem solid rgb(50, 30, 2);
-    box-shadow: 4px 6px 5px rgb(50, 30, 2, 0.6);
-}
-.small-images {
-    display: flex;
-    text-align: center;
-    height: 20rem;
-    width: 100%;
-    overflow: hidden;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.small-images img {
-    justify-content: space-around;
-    justify-content: space-between;
-    height: 15rem;
-    width: 20rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    border: 0.2rem solid rgb(50, 30, 2);
-    box-shadow: 4px 6px 5px rgb(50, 30, 2, 0.6);
-}
-article {
+
+/* general article styling */
+
+h3 {
     font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
     color: rgb(50, 30, 2);
     font-weight: bold;
     font-size: large;
-    margin-left: 4rem;
+    margin: 2rem 0 0 4rem;
+
 }
-footer a {
-    font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
-    font-weight: bold;
-    color: rgb(50, 30, 2);
-    text-decoration: none;
-}
+
+/* formatting of images in ServicesPage */
+
 section.breed-size {
     font-size: 2rem;
     font-weight: bold;
@@ -190,12 +203,14 @@ section.breed-size {
     padding-right: 1rem;
     text-align: center;
 }
+
 figure {
     display: inline-block;
     border: 0.5rem solid rgb(50, 30, 2);
     border-radius: 25px;
     margin: 3rem;
 }
+
 figure img {
     vertical-align: top;
     justify-content: space-around;
@@ -206,6 +221,7 @@ figure img {
     margin-right: auto;
     border-radius: 16px 16px 0 0;
 }
+
 figure figcaption {
     border-top: 0.5rem solid rgb(50, 30, 2);
     border-radius: 0 0 16px 16px;
@@ -215,6 +231,9 @@ figure figcaption {
     font-weight: bolder;
     font-size: large;
 }
+
+/* styles for articles in FAQ, Contact Us pages */
+
 article.faqs {
     font-size: larger;
     font-weight: bold;
@@ -223,32 +242,40 @@ article.faqs {
     padding-right: 2rem;
     text-align: left;
 }
+
 article.address{
     padding-left: 2rem;
 }
-.container {
-    display: flex;
-}
-.drop-downs, .calendar, .times {
-display: flex;
-flex-direction: column;
-}
-.container div {
-    font-size: 2rem;
-    padding: 2rem;
-    color: rgb(50, 30, 2);
-    flex: 1;
-}
-.times {
-    margin-top: 3rem;
-    margin-right: 2rem;
-}
-h3 {
-    margin-top: 1rem;
-}
-.sign-up {
-    margin: 1rem 0 0 0;
-}
-.sign-up input {
+
+/* styles for making appointments */
+
+.grid-container {
+    display: grid;
     padding: 10px;
+}
+
+.grid-item {
+padding: 20px;
+text-align: center;
+}
+
+.grid-item select {
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-color: rgb(50, 30, 2);
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    margin: 1rem 4rem 1rem 4rem;
+}
+
+/* styles for email sign-up form and customer information form */
+
+form input {
+    padding: 10px;
+    border-color: rgb(50, 30, 2);
+    display: block;
+    margin: 1rem;
+}
+
+form {
+    margin: 2rem 0 0 3rem;
 }
