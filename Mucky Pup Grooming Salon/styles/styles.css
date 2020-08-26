@@ -184,7 +184,7 @@ section.intro {
 
 /* general article styling */
 
-h3 {
+h3, article {
     font-family: "Palatino Linotype","Book Antiqua", "Palatino", serif;
     color: rgb(50, 30, 2);
     font-weight: bold;
